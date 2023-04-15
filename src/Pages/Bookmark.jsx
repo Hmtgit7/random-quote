@@ -16,7 +16,7 @@ export default function Bookmark() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-[#ce00ff] to-[#a021c2] min-h-screen">
+    <div className="bg-gradient-to-r from-[#702fa6] to-[#582293] min-h-screen">
       <div className="container m-auto">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold text-white m-2">Bookmarks</h1>

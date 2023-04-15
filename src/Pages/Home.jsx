@@ -52,7 +52,7 @@ export default function Home(props) {
   };
 
   return (
-    <div className="bg-gradient-to-r from-[#ce00ff] to-[#a021c2] min-h-screen">
+    <div className="bg-gradient-to-r from-[#702fa6] to-[#582293] min-h-screen">
       <div className="container m-auto my-12">
         <div className="flex flex-col justify-center items-center">
           <Card
