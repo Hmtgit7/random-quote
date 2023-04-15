@@ -53,7 +53,7 @@ export default function Home(props) {
 
   return (
     <div className="bg-gradient-to-r from-[#ce00ff] to-[#a021c2] min-h-screen">
-      <div className="container m-auto">
+      <div className="container m-auto my-12">
         <div className="flex flex-col justify-center items-center">
           <Card
             data={quote}
@@ -74,7 +74,7 @@ export default function Home(props) {
       <div className="flex flex-col justify-center">
       <div className="flex flex-col justify-center items-center">
       <select
-            className="bg-white rounded-lg shadow-lg p-2 m-2 dropdown justify-center item-center"
+            className="bg-white rounded-full shadow-lg p-2 m-6 dropdown justify-center item-center"
             value={tag}
             onChange={(e) => setTag(e.target.value)}
           >
@@ -84,12 +84,12 @@ export default function Home(props) {
               </option>
             ))}
           </select>
-      </div>
+      {/* </div> */}
       
-      <div className="flex flex-row-reverse w-1/2 justify-between items-center space-x-2 m-2">
+      {/* <div className="flex flex-row-reverse w-1/2 justify-between items-center space-x-2 m-2"> */}
             {!props.fromBookmark && (
               <button
-                className="px-4 py-2 rounded-full shadow-md bg-green-900 hover:bg-green-400"
+                className="px-4 w- py-2 rounded-full shadow-md bg-green-900 hover:bg-green-400"
                 onClick={() => {
                   getQuotes();
                   setLoading(true);
